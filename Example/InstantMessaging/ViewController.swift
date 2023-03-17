@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import InstantMessaging
+import SwiftUI
 
 class ViewController: UIViewController {
 
@@ -20,5 +22,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func presentInstantMessagingPod(_ sender: Any) {
+        let main = MainView()
+        let hostingController = UIHostingController(rootView: main)
+        self.navigationController?.pushViewController(hostingController, animated: true)
+    }
 }
 

@@ -15,6 +15,13 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		CC46734219ABB5EF49EE23B4 /* Pods_InstantMessaging_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08FBD0AB2DAC6D6375C5E62 /* Pods_InstantMessaging_Example.framework */; };
+		E943018A1299B3B2C180320A /* Pods_InstantMessagingExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3693C3F4D940FF75E47B42D /* Pods_InstantMessagingExample.framework */; };
+		EE053F5C29C1DA960094E7D0 /* RubikIso-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE053F5B29C1DA960094E7D0 /* RubikIso-Regular.ttf */; };
+		EE053F5D29C1DA960094E7D0 /* RubikIso-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE053F5B29C1DA960094E7D0 /* RubikIso-Regular.ttf */; };
+		EEBBD98329B9E7D10026652F /* InstantMessagingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD98229B9E7D10026652F /* InstantMessagingExampleApp.swift */; };
+		EEBBD98529B9E7D10026652F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD98429B9E7D10026652F /* ContentView.swift */; };
+		EEBBD98729B9E7D30026652F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD98629B9E7D30026652F /* Assets.xcassets */; };
+		EEBBD98A29B9E7D30026652F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD98929B9E7D30026652F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9D54CA820F907EF32A691A /* Pods-InstantMessagingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessagingExample.debug.xcconfig"; path = "Target Support Files/Pods-InstantMessagingExample/Pods-InstantMessagingExample.debug.xcconfig"; sourceTree = "<group>"; };
 		28761F5842D2812FBCA86E9B /* Pods-InstantMessaging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessaging_Tests.release.xcconfig"; path = "Target Support Files/Pods-InstantMessaging_Tests/Pods-InstantMessaging_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3086BC2CC2401A5CDC673ACC /* Pods-InstantMessagingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessagingExample.release.xcconfig"; path = "Target Support Files/Pods-InstantMessagingExample/Pods-InstantMessagingExample.release.xcconfig"; sourceTree = "<group>"; };
 		5F8DA09EE63A3E797A5AEE2B /* Pods-InstantMessaging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessaging_Example.debug.xcconfig"; path = "Target Support Files/Pods-InstantMessaging_Example/Pods-InstantMessaging_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* InstantMessaging_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantMessaging_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,11 +49,19 @@
 		607FACE51AFB9204008FA782 /* InstantMessaging_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantMessaging_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8486C92F7D4661B500BEC952 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		86760A736E770040A904F710 /* InstantMessaging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = InstantMessaging.podspec; path = ../InstantMessaging.podspec; sourceTree = "<group>"; };
-		9D7A076BF10EE6769A290A6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8486C92F7D4661B500BEC952 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		86760A736E770040A904F710 /* InstantMessaging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InstantMessaging.podspec; path = ../InstantMessaging.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D7A076BF10EE6769A290A6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB24BECC1F7B23E3FFBE76F8 /* Pods-InstantMessaging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessaging_Tests.debug.xcconfig"; path = "Target Support Files/Pods-InstantMessaging_Tests/Pods-InstantMessaging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1A20B7EA8D09BFDE4BF905 /* Pods-InstantMessaging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessaging_Example.release.xcconfig"; path = "Target Support Files/Pods-InstantMessaging_Example/Pods-InstantMessaging_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E3693C3F4D940FF75E47B42D /* Pods_InstantMessagingExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantMessagingExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE053F5B29C1DA960094E7D0 /* RubikIso-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikIso-Regular.ttf"; sourceTree = "<group>"; };
+		EE053F5E29C1DB7A0094E7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EEBBD98029B9E7D00026652F /* InstantMessagingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantMessagingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBBD98229B9E7D10026652F /* InstantMessagingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantMessagingExampleApp.swift; sourceTree = "<group>"; };
+		EEBBD98429B9E7D10026652F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEBBD98629B9E7D30026652F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEBBD98929B9E7D30026652F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F08FBD0AB2DAC6D6375C5E62 /* Pods_InstantMessaging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantMessaging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8D28B485E2E223488061E5 /* Pods_InstantMessaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantMessaging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEBBD97D29B9E7D00026652F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E943018A1299B3B2C180320A /* Pods_InstantMessagingExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,8 +101,9 @@
 				DC1A20B7EA8D09BFDE4BF905 /* Pods-InstantMessaging_Example.release.xcconfig */,
 				CB24BECC1F7B23E3FFBE76F8 /* Pods-InstantMessaging_Tests.debug.xcconfig */,
 				28761F5842D2812FBCA86E9B /* Pods-InstantMessaging_Tests.release.xcconfig */,
+				0C9D54CA820F907EF32A691A /* Pods-InstantMessagingExample.debug.xcconfig */,
+				3086BC2CC2401A5CDC673ACC /* Pods-InstantMessagingExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +113,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for InstantMessaging */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				EEBBD98129B9E7D10026652F /* InstantMessagingExample */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3D13DF66958B300F242018F1 /* Pods */,
 				AC2A20E0A0F98040C1B81857 /* Frameworks */,
@@ -98,6 +125,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* InstantMessaging_Example.app */,
 				607FACE51AFB9204008FA782 /* InstantMessaging_Tests.xctest */,
+				EEBBD98029B9E7D00026652F /* InstantMessagingExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,8 +184,30 @@
 			children = (
 				F08FBD0AB2DAC6D6375C5E62 /* Pods_InstantMessaging_Example.framework */,
 				FA8D28B485E2E223488061E5 /* Pods_InstantMessaging_Tests.framework */,
+				E3693C3F4D940FF75E47B42D /* Pods_InstantMessagingExample.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEBBD98129B9E7D10026652F /* InstantMessagingExample */ = {
+			isa = PBXGroup;
+			children = (
+				EE053F5E29C1DB7A0094E7D0 /* Info.plist */,
+				EEBBD98229B9E7D10026652F /* InstantMessagingExampleApp.swift */,
+				EEBBD98429B9E7D10026652F /* ContentView.swift */,
+				EE053F5B29C1DA960094E7D0 /* RubikIso-Regular.ttf */,
+				EEBBD98629B9E7D30026652F /* Assets.xcassets */,
+				EEBBD98829B9E7D30026652F /* Preview Content */,
+			);
+			path = InstantMessagingExample;
+			sourceTree = "<group>";
+		};
+		EEBBD98829B9E7D30026652F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEBBD98929B9E7D30026652F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,14 +252,33 @@
 			productReference = 607FACE51AFB9204008FA782 /* InstantMessaging_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EEBBD97F29B9E7D00026652F /* InstantMessagingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBBD98D29B9E7D30026652F /* Build configuration list for PBXNativeTarget "InstantMessagingExample" */;
+			buildPhases = (
+				40535A105CC6D2F089F8DA03 /* [CP] Check Pods Manifest.lock */,
+				EEBBD97C29B9E7D00026652F /* Sources */,
+				EEBBD97D29B9E7D00026652F /* Frameworks */,
+				EEBBD97E29B9E7D00026652F /* Resources */,
+				A13223D1B48D300A82F9B5EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantMessagingExample;
+			productName = InstantMessagingExample;
+			productReference = EEBBD98029B9E7D00026652F /* InstantMessagingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -221,11 +290,16 @@
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					EEBBD97F29B9E7D00026652F = {
+						CreatedOnToolsVersion = 14.2;
+						DevelopmentTeam = RLA777L5DM;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "InstantMessaging" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -238,6 +312,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* InstantMessaging_Example */,
 				607FACE41AFB9204008FA782 /* InstantMessaging_Tests */,
+				EEBBD97F29B9E7D00026652F /* InstantMessagingExample */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +325,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				EE053F5C29C1DA960094E7D0 /* RubikIso-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +333,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBBD97E29B9E7D00026652F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE053F5D29C1DA960094E7D0 /* RubikIso-Regular.ttf in Resources */,
+				EEBBD98A29B9E7D30026652F /* Preview Assets.xcassets in Resources */,
+				EEBBD98729B9E7D30026652F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +365,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-InstantMessaging_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40535A105CC6D2F089F8DA03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantMessagingExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -328,6 +436,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantMessaging_Tests/Pods-InstantMessaging_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A13223D1B48D300A82F9B5EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantMessagingExample/Pods-InstantMessagingExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/InstantMessaging/InstantMessaging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantMessaging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantMessagingExample/Pods-InstantMessagingExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AE6BF25FA2FD3CA1BD23F099 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +493,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBBD97C29B9E7D00026652F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBBD98529B9E7D10026652F /* ContentView.swift in Sources */,
+				EEBBD98329B9E7D10026652F /* InstantMessagingExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +547,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -445,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,14 +603,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -491,7 +632,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -510,7 +651,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -525,7 +666,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -569,6 +710,89 @@
 			};
 			name = Release;
 		};
+		EEBBD98B29B9E7D30026652F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9D54CA820F907EF32A691A /* Pods-InstantMessagingExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"InstantMessagingExample/Preview Content\"";
+				DEVELOPMENT_TEAM = RLA777L5DM;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstantMessagingExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoripop.InstantMessagingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEBBD98C29B9E7D30026652F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3086BC2CC2401A5CDC673ACC /* Pods-InstantMessagingExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstantMessagingExample/Preview Content\"";
+				DEVELOPMENT_TEAM = RLA777L5DM;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstantMessagingExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoripop.InstantMessagingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +819,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBBD98D29B9E7D30026652F /* Build configuration list for PBXNativeTarget "InstantMessagingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBBD98B29B9E7D30026652F /* Debug */,
+				EEBBD98C29B9E7D30026652F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

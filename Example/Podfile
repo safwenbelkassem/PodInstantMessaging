@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'InstantMessaging_Example' do
   pod 'InstantMessaging', :path => '../'
@@ -13,4 +13,9 @@ target 'InstantMessaging_Example' do
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 9.4.0'
   end
+end
+
+
+target 'InstantMessagingExample' do
+  pod 'InstantMessaging', :path => '../'
 end

@@ -1,0 +1,6 @@
+framework module Pods_InstantMessaging_Tests {
+  umbrella header "Pods-InstantMessaging_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
