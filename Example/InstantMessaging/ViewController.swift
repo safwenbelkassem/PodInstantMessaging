@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func presentInstantMessagingPod(_ sender: Any) {
-        let main = MainView()
-        let hostingController = UIHostingController(rootView: main)
-        self.navigationController?.pushViewController(hostingController, animated: true)
+//        let main = MainView()
+//        let hostingController = UIHostingController(rootView: main)
+//        self.navigationController?.pushViewController(hostingController, animated: true)
     }
 }
 

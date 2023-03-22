@@ -37,5 +37,11 @@ struct K {
         static let closeBottomIcon = "close_Bottom_icon"
     }
     
-    
+    struct Api {
+        static let baseUrl = "https://api-ipocrat.satoripop.com/api"
+        static let getConversation = "/conversation/myConversations"
+        static let getConversationById = "/conversation/conversationBy?id="
+        static let getMessageOfConversationById = "/message/conversationMessages?id="
+        static let removeConversationById = "/conversation/removeConversation?id="
+    }
 }

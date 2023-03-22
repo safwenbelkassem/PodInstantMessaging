@@ -1,22 +1,46 @@
 {
   "name": "InstantMessaging",
   "version": "0.1.0",
-  "summary": "A short description of InstantMessaging.",
+  "summary": "this is InstantMessaging.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/45638673/InstantMessaging",
+  "homepage": "https://github.com/safwenbelkassem/PodInstantMessaging.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "45638673": "safouane.belkacem@satoripop.com"
+    "Safwen belkacem": "safouanbelkacem@gmail.com"
   },
   "source": {
-    "git": "https://github.com/45638673/InstantMessaging.git",
+    "git": "https://github.com/safwenbelkassem/PodInstantMessaging.git",
     "tag": "0.1.0"
   },
+  "swift_versions": [
+    "4.2",
+    "5.0",
+    "5.1"
+  ],
   "platforms": {
-    "ios": "13.0"
+    "ios": "14.0"
   },
-  "source_files": "InstantMessaging/Classes/**/*"
+  "resources": [
+    "Assets/*",
+    "Ressources/Fonts/*"
+  ],
+  "source_files": [
+    "Classes/**/*.swift",
+    "Classes/**/**/*.swift"
+  ],
+  "resource_bundles": {
+    "InstantMessaging": [
+      "Assets/*",
+      "Ressources/Fonts/*"
+    ]
+  },
+  "dependencies": {
+    "BottomSheetSwiftUI": [
+      "~> 3.1.0"
+    ]
+  },
+  "swift_version": "5.1"
 }

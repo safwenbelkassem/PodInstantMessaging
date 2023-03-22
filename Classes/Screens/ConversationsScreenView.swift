@@ -6,52 +6,46 @@
 //
 
 import SwiftUI
+import BottomSheetSwiftUI
 
 public struct ConversationsScreenView: View {
     
     @ObservedObject private var vm = ConversationsViewModel()
     @State var page = 1
     
-    @State private var showBottomSheet = false
-    @State private var bottomSheetDismissed = false
     
     public init() {
         vm.getConversations(at: 1)
     }
-   
+    
     public var body: some View {
-        Button("Show Bottom Sheet") {
-            showBottomSheet.toggle()
+
+        NavigationView {
+            ScrollView(showsIndicators: false){
+                Header()
+                SearchInput()
+                LazyVStack{
+                    ForEach(vm.conversations) { conversation in
+                        let conversationIndex = conversation.id
+                        NavigationLink {
+                            DiscussionScreenView(conversation: conversation)
+                        } label: {
+                            ConversationItem(conversation: conversation)
+                                .onAppear{
+                                    if conversationIndex == vm.conversations.count - 2 {
+                                        vm.getConversations(at: page + 1)
+                                        page += 1
+                                    }
+                                }
+                        }
+                    }
+                }
+            }
         }
-        .sheet(isPresented: $showBottomSheet, onDismiss: {
-            // Optional code to run when the bottom sheet is dismissed
-        }, content: {
-            Text("tETetet")
-        })
-        //            NavigationView {
-        //                ScrollView(showsIndicators: false){
-        //                    Header()
-        //                    SearchInput()
-        //                    LazyVStack{
-        //                        ForEach(vm.conversations) { conversation in
-        //                            let conversationIndex = conversation.id
-        //                            NavigationLink {
-        //                                DiscussionScreenView(conversation: conversation)
-        //                            } label: {
-        //                                ConversationItem(conversation: conversation)
-        //                                    .onAppear{
-        //                                        if conversationIndex == vm.conversations.count - 2 {
-        //                                            vm.getConversations(at: page + 1)
-        //                                            page += 1
-        //                                        }
-        //                                    }
-        //                            }
-        //                        }
-        //                    }
-        //                }
-        //            }.navigationBarBackButtonHidden(true)
-        //            .clipped()
-        //            .edgesIgnoringSafeArea(.bottom)
+        .navigationBarBackButtonHidden(true)
+        .clipped()
+        .edgesIgnoringSafeArea(.bottom)
+        
         
     }
 }

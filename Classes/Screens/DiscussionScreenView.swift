@@ -6,31 +6,44 @@
 //
 
 import SwiftUI
+import BottomSheetSwiftUI
 
 struct DiscussionScreenView: View {
     var conversation : Conversation
-    @State private var showSheetRecharge = false
+    
+    @State var bottomSheetPosition: BottomSheetPosition = .hidden
+    
     
     func sendMessage() {
         
     }
     func requestRecharge() {
-        showSheetRecharge.toggle()
+        bottomSheetPosition = .dynamic
+    }
+    func closeBottomSheet() {
+        bottomSheetPosition = .hidden
     }
     var body: some View {
+        
         VStack {
             HeaderConversation(userName: conversation.name)
                 .navigationBarBackButtonHidden(true)
-            Spacer()
+            ScrollView{
+                
+            }
             DiscussionInput(sendMessage: sendMessage, requestRecharge: requestRecharge)
-                .sheet(isPresented: $showSheetRecharge) {
-                    Text("This app was brought to you by Hacking with Swift")
-                        
-                }
         }
         .background(Color.White)
         .background(Color.ExtraLightGrey.edgesIgnoringSafeArea(.bottom))
-        
+        .bottomSheet(bottomSheetPosition: self.$bottomSheetPosition, switchablePositions: [
+            .dynamic
+        ]) {
+            RechargeView(closeBottomSheet:  closeBottomSheet)
+        }
+        .showDragIndicator(false)
+        .enableBackgroundBlur(true)
+        .backgroundBlurMaterial(.dark(.default))
+        .enableTapToDismiss(true)
     }
 }
 
